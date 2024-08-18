@@ -1,0 +1,57 @@
+#topwrapper{
+  width: 730px;
+  height: 38px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title{
+  font-size: 26px;
+  font-weight: bold;
+  color: #222731;
+}
+.darktitle{
+  color: #ffffff;
+}
+
+#togglebutton{
+  display: flex;
+  align-items: center;
+
+}
+
+.darklabel{
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+  color: #697C9A;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.darkmode{
+  color: #ffffff;
+}
+input[type="checkbox"]{
+  opacity: 0;
+}
+
+.img{
+  width: 20px;
+  height: 20px;
+}
+
+
+@media(max-width:500px){
+  #topwrapper{
+    width: 327px;
+    height: 38px; 
+    padding-top: 120px;
+  }
+  #topfooter{
+    row-gap: 10px;
+  }
+  
+}
+
+

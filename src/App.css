@@ -1,0 +1,22 @@
+
+.app{
+  width: 1440px; 
+  height: 900px;
+  background-color: #F6F8FF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  row-gap: 20px; 
+}
+
+.darkbody{
+  background-color: #141D2F;
+}
+
+@media(max-width:500px){
+  .app{
+    overflow: hidden;
+
+  }
+} 
